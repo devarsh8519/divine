@@ -28,7 +28,7 @@ function Touch() {
                         </div>
                         <div className='text'>
                             <h4>Visit Office</h4>
-                            {/* <p>561/1, Road No. 8, Near Varun Engineering, Kathwada GIDC, Ahmedabad - 382430</p> */}
+                            <p>561/1, Road No. 8, Near Varun Engineering, Kathwada GIDC, Ahmedabad - 382430</p>
                         </div>
                     </div>
                     <hr className='hr'/>
