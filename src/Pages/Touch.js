@@ -19,7 +19,7 @@ function Touch() {
                     </h2>
                 </div>
                 <div>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d14686.80695664522!2d72.686322!3d23.034721!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjPCsDAyJzA1LjAiTiA3MsKwNDEnMTAuOCJF!5e0!3m2!1sen!2sus!4v1727005586483!5m2!1sen!2sus" width={750} height={400} style={{ border: 0 }} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" />
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d14686.80695664522!2d72.686322!3d23.034721!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjPCsDAyJzA1LjAiTiA3MsKwNDEnMTAuOCJF!5e0!3m2!1sen!2sus!4v1727005586483!5m2!1sen!2sus"  style={{ border: 0 }} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" />
                 </div>
                 <div className="con">
                     <div className='off'>
@@ -28,7 +28,7 @@ function Touch() {
                         </div>
                         <div className='text'>
                             <h4>Visit Office</h4>
-                            <p>561/1, Road No. 8, Near Varun Engineering, Kathwada GIDC, Ahmedabad - 382430</p>
+                            {/* <p>561/1, Road No. 8, Near Varun Engineering, Kathwada GIDC, Ahmedabad - 382430</p> */}
                         </div>
                     </div>
                     <hr className='hr'/>

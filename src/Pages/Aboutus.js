@@ -28,7 +28,7 @@ function Aboutus() {
                  </div>
                  <div className='sq'>
                     <h1><FaRegUser /></h1>
-                    <h5 className='mt-4'>15+ Employee</h5>
+                    <h5>15+ Employee</h5>
                  </div>
                  <div className='sq'>
                     <h1><PiPlantLight /></h1>
