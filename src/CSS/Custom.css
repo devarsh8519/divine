@@ -522,6 +522,15 @@ iframe {
     font-size: 3.0rem;
     padding-bottom: 30px;
 }
+.profile h2{
+    text-align: left;
+}
+.profile h4{
+    text-align: left;
+}
+.profile p{
+    text-align: left;
+}
 
 .profile img {
     width: 88%;
@@ -899,45 +908,12 @@ iframe {
         font-size: 1.5rem;
         justify-content: right;
         align-items:flex-end;
-        /* margin-left: 150px; */
         padding-left: 10px;
-        color: #fff; /* Adjust as needed */
+        color: #fff;
         border: 1px solid #ccc;
         z-index: 10;
     }
     
-
-    /* Main  change*/
-    /* .d {
-        margin-top: 80px;
-        padding: 10px;
-        max-width: 100%;
-    }
-
-    .d h1 {
-        font-size: 2.5rem;
-        margin: 20px 15px;
-        text-align: left;
-    }
-
-    .d h1+p {
-        font-size: 1.3rem;
-        text-align: left;
-        max-width: 100%;
-        margin-left: 15px;
-
-    }
-
-    .e {
-        margin-left: 15px;
-    }
-
-    .f {
-        width: 190px;
-        height: 350px;
-        margin: 10px 10px;
-        padding-left: 10px;
-    } */
     .d {
         margin-top: 80px;
         padding: 10px;
@@ -1524,7 +1500,7 @@ iframe {
     .profile .details {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        column-gap: 10px;
+        column-gap: 20px;
         row-gap: 20px;
     }
 
@@ -1536,12 +1512,15 @@ iframe {
     .abtus h1 {
         text-align: left;
         font-size: 3.5rem;
+        max-width: 100%;
         margin-top: 0px;
         margin-bottom: 0px;
     }
 
     .abtus p {
         font-size: 1.0rem;
+        text-align: left;
+        max-width: 100%;
     }
 
     .profile .touch h1 {
