@@ -1147,9 +1147,12 @@ iframe {
     }
 
     .con {
-        margin-left: 50px;
-        margin-top: 40px;
+        display: flex;
+        margin-top: 0px;
+        align-items: flex-start;
+        justify-content: flex-start; 
     }
+    
 
     .off {
         display: flex;
@@ -1383,7 +1386,6 @@ iframe {
 
     .custom-card img {
         width: 90%;
-        /* height: 300px;  If needed */
     }
 
 
@@ -1470,8 +1472,12 @@ iframe {
     }
 
     .con {
-        margin-top: 0px;
+        display: flex;
+        margin-top: 50px;
+        align-items: flex-start;
+        justify-content: flex-start;
     }
+    
 
     .off {
         display: flex;
@@ -1487,7 +1493,7 @@ iframe {
     .text p {
         margin: 0 auto;
         font-size: 0.9rem;
-        max-width: 97%;
+        max-width: 100%;
     }
 
     /* products */
@@ -1553,11 +1559,9 @@ iframe {
     .profile .touch iframe {
         width: 90%;
         margin :0 auto;
+        margin-bottom: 30px;
     }
 
-    .profile .touch .con {
-        margin: 0 auto;
-        font-size: 0.9rem;
-        max-width: 97%;
-    }
+  
+    
 }
