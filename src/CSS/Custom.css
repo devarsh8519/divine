@@ -1487,6 +1487,7 @@ iframe {
     .text p {
         margin: 0 auto;
         font-size: 0.9rem;
+        max-width: 97%;
     }
 
     /* products */
@@ -1557,5 +1558,6 @@ iframe {
     .profile .touch .con {
         margin: 0 auto;
         font-size: 0.9rem;
+        max-width: 97%;
     }
 }
