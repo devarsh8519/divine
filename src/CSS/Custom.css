@@ -308,7 +308,7 @@ h4 {
 
 /* Products */
 .pro {
-    margin-top: 90px;
+    margin-top: 80px;
     background-color: #222831;
 }
 
@@ -357,6 +357,7 @@ h4 {
 .card-text {
     margin-top: 20px;
 }
+
 .card-body .btn-primary {
     display: block;
     width: 130px;
@@ -510,7 +511,7 @@ iframe {
 /* Profile */
 .profile {
     background-color: #222831;
-    margin-top: 90px;
+    margin-top: 80px;
     color: #fff;
     text-align: left;
     padding-left: 150px;
@@ -522,13 +523,16 @@ iframe {
     font-size: 3.0rem;
     padding-bottom: 30px;
 }
-.profile h2{
+
+.profile h2 {
     text-align: left;
 }
-.profile h4{
+
+.profile h4 {
     text-align: left;
 }
-.profile p{
+
+.profile p {
     text-align: left;
 }
 
@@ -604,7 +608,7 @@ iframe {
 }
 
 /* Responsive */
-@media  (max-width: 1200px) {
+@media (max-width: 1200px) {
     * {
         margin: 0;
         padding: 0;
@@ -741,18 +745,16 @@ iframe {
         width: 90%;
         max-width: 400px;
     }
+
     iframe {
         width: 100%;
         max-width: 600px;
     }
+
     .con {
-        width: 90%;
-        max-width: 450px;
+        max-width: 80%;
         margin: 0 auto;
     }
-    
-
-
 
     .icon {
         margin-right: 10px;
@@ -778,34 +780,41 @@ iframe {
     .profile .details {
         column-gap: 150px;
     }
-    
+
     .profile hr {
         width: 100%;
     }
 
     .profile .touch h1 {
-        padding-left: 30px;
+        padding-top: 100px;
+        font-size: 3.5rem;
+        margin-left: -400px;
     }
 
     .profile .touch .mail {
         display: flex;
+        max-width: 80%;
+        margin: 0px 100px;
         align-items: center;
         justify-content: center;
-        margin: 40px auto 140px auto;
+        margin-bottom: 50px;
+        margin-top: 30px;
         width: 500px;
 
     }
 
     .profile .touch iframe {
+        max-width: 80%;
+        margin: 0px 20px;
         align-items: center;
         justify-content: center;
-        width: 600px;
-        /* margin-left: 100px; */
     }
 
     .profile .touch .con {
-        margin-left: 0;
-}
+        max-width: 90%;
+        margin: 0 auto;
+        margin-top: 10px;
+    }
 
 }
 
@@ -907,12 +916,14 @@ iframe {
         display: block;
         font-size: 1.5rem;
         justify-content: right;
-        align-items:flex-end;
+        align-items: flex-end;
         padding-left: 10px;
         color: #fff;
         border: 1px solid #ccc;
         z-index: 10;
     }
+    
+    
     
     .d {
         margin-top: 80px;
@@ -1064,11 +1075,14 @@ iframe {
     .service {
         flex-direction: column;
         padding: 5px;
+        /* text-align: left; */
     }
 
 
     .ser h1 {
-        margin-top: 40px;
+        margin-top: 100px;
+        max-width: 100%;
+        text-align: left !important;
     }
 
 
@@ -1126,9 +1140,9 @@ iframe {
         display: flex;
         margin-top: 0px;
         align-items: flex-start;
-        justify-content: flex-start; 
+        justify-content: flex-start;
     }
-    
+
 
     .off {
         display: flex;
@@ -1329,8 +1343,8 @@ iframe {
     }
 
     .sq h5 {
-        margin:  0 auto;
-
+        margin: 0 auto;
+        padding: 10px 5px;
     }
 
     .about h1 {
@@ -1394,9 +1408,10 @@ iframe {
 
 
     .ser h1 {
-        margin-top: 40px;
+        margin-top: 100px;
+        max-width: 100%;
+        text-align: left !important;
     }
-
 
     .p0 {
         text-align: center;
@@ -1434,11 +1449,9 @@ iframe {
         height: 70px;
         width: 300px;
         font-size: 1.4rem;
-        margin:0 auto;
-       margin-top: 30px;
+        margin: 0 auto;
+        margin-top: 30px;
         margin-bottom: 50px;
-
-
     }
 
     iframe {
@@ -1449,11 +1462,10 @@ iframe {
 
     .con {
         display: flex;
-        margin-top: 50px;
+        margin-top: 0px;
         align-items: flex-start;
         justify-content: flex-start;
     }
-    
 
     .off {
         display: flex;
@@ -1530,17 +1542,14 @@ iframe {
     }
 
     .profile .touch .mail {
-       margin:0 auto;
-       margin-top: 30px;
+        margin: 0 auto;
+        margin-top: 30px;
         margin-bottom: 50px;
     }
 
     .profile .touch iframe {
         width: 90%;
-        margin :0 auto;
+        margin: 0 auto;
         margin-bottom: 30px;
     }
-
-  
-    
 }
