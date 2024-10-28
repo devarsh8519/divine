@@ -10,9 +10,9 @@ function Main() {
         <button className="e">Know More <FaArrowRight /></button>
       </div>
       <div className="img-container">
-        <img src="Images/1.avif" className="f" alt="Image 1" />
-        <img src="Images/2.avif" className="f" alt="Image 2" />
-        <img src="Images/3.jpg" className="f" alt="Image 3" />
+        <img src="Images/w5.jpg" className="f" alt="Image 1" />
+        <img src="Images/w4.jpg" className="f" alt="Image 2" />
+        <img src="Images/w6.jpg" className="f" alt="Image 3" />
       </div>
     </div>
   );
