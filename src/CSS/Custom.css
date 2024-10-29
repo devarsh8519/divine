@@ -79,7 +79,7 @@
     color: rgb(255, 255, 255);
     text-align: left;
     max-width: 480px;
-    font-size: 1.5rem;
+    font-size: 1.15rem;
 }
 
 .e {
@@ -226,7 +226,7 @@ h4 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin: 10px 80px;
+    margin: 10px 50px;
 }
 
 .box {
@@ -451,9 +451,9 @@ hr {
     text-align: center;
     line-height: 70px;
     color: #fff;
-    margin-bottom: 140px;
+    margin: 0 auto;
     margin-top: 40px;
-    margin-left: 34%;
+    margin-bottom: 100px;
     transition: transform 0.5s ease-in-out;
 }
 
@@ -590,13 +590,20 @@ iframe {
 }
 
 .profile .touch h1 {
-    padding-left: 380px;
-    padding-bottom: 0px;
+    font-size: 3.5rem;
+    text-align: center;
+    color: #fff;
+    margin-top: 40px;
+    margin: 0 auto;
+    margin-left: -100px;
 }
 
 .profile .touch .mail {
-    margin-left: 360px;
-    margin-bottom: 80px;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 100px;
+    margin-left: 375px;
+
 }
 
 .profile .touch iframe {
@@ -628,8 +635,6 @@ iframe {
         gap: 15px;
     }
 
-
-
     /* Group */
     .g {
         margin: 100px 0px;
@@ -649,7 +654,6 @@ iframe {
         margin-left: 10px;
         margin-top: 70px;
         max-width: 400px;
-        /* font-size: ; */
     }
 
     .s {
@@ -710,7 +714,11 @@ iframe {
 
     /* Application */
 
-
+    .ap h1 {
+        margin-left: 0px;
+        margin-top: 100px;
+        margin-bottom: 60px;
+    }
     .boxes {
         align-self: center;
         justify-content: center;
@@ -788,26 +796,30 @@ iframe {
     .profile .touch h1 {
         padding-top: 100px;
         font-size: 3.5rem;
-        margin-left: -400px;
+        margin-left: -100px;
     }
 
     .profile .touch .mail {
         display: flex;
         max-width: 80%;
-        margin: 0px 100px;
+        margin: 0 auto;
         align-items: center;
         justify-content: center;
         margin-bottom: 50px;
         margin-top: 30px;
         width: 500px;
+        margin-left: 100px;
 
     }
 
     .profile .touch iframe {
         max-width: 80%;
-        margin: 0px 20px;
+        margin: 0 auto;
         align-items: center;
         justify-content: center;
+        margin:0px 30px;
+        margin-bottom: 50px;
+
     }
 
     .profile .touch .con {
