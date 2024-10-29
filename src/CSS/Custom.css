@@ -185,7 +185,7 @@ h4 {
     width: 250px;
     background-color: #3e4a5b;
     border-radius: 30px;
-    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .sq:hover {
@@ -226,7 +226,7 @@ h4 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin: 10px 50px;
+    /* margin: 10px 50px; */
 }
 
 .box {
@@ -473,7 +473,7 @@ iframe {
     flex-direction: column;
     justify-content: center;
     height: 17.5vh;
-    margin-left: 400px;
+    margin-left: 300px;
 }
 
 .off {
@@ -595,7 +595,9 @@ iframe {
     color: #fff;
     margin-top: 40px;
     margin: 0 auto;
-    margin-left: -100px;
+    margin-left: 80px;
+    /* align-items: center; */
+    /* justify-content: center; */
 }
 
 .profile .touch .mail {
@@ -608,6 +610,7 @@ iframe {
 
 .profile .touch iframe {
     margin-left: 250px;
+    max-width: 80%;
 }
 
 .profile .touch .con {
@@ -700,7 +703,6 @@ iframe {
 
     }
 
-
     .s .sq:nth-child(2) {
         margin-top: 10px;
     }
@@ -791,6 +793,9 @@ iframe {
 
     .profile hr {
         width: 100%;
+    }
+    .profile .touch{
+        align-items: center;
     }
 
     .profile .touch h1 {
