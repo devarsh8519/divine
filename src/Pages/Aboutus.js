@@ -3,6 +3,7 @@ import { FaArrowRight } from "react-icons/fa";
 import { BsGraphUpArrow } from "react-icons/bs";
 import { FaRegUser } from "react-icons/fa";
 import { PiPlantLight } from "react-icons/pi";
+import { Link } from 'react-router-dom';
 
 
 function Aboutus() {
@@ -19,7 +20,7 @@ function Aboutus() {
                     <li>Honed Tubes</li>
                 </ul>
                 <p>At Divine Tubes, we are to committed delivering exceptional products that meet the highest industry standards.</p>
-                <button className='e mb-5'>Why Join Us <FaArrowRight /></button>
+                <Link to="/profile" style={{"textDecoration":"none"}}><button className='e mb-5'>Why Join Us <FaArrowRight /></button></Link>
             </div>
             <div className='d-flex s'>
                  <div className='sq'>

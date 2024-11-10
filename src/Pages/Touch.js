@@ -40,7 +40,8 @@ function Touch() {
                         </div>
                         <div className='text'>
                             <h4>Call Us</h4>
-                            <p>+91 9723334357, +91 7046125865</p>
+                            <a href="tel:+919723334357" style={{ color: 'inherit', textDecoration: 'none' }}>+91 9723334357</a>, 
+                            <a href="tel:+917046125865" style={{ color: 'inherit', textDecoration: 'none' }}> +91 7046125865</a>
                         </div>
                     </div>
                     <hr className='hr'/>
