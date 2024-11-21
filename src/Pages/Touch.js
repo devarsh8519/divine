@@ -42,8 +42,8 @@ function Touch() {
                             <div className='text'>
                                 <h4>Call Us</h4>
                                 <span>
-                                    <a href="tel:+919723334357">+91 9723334357</a>,&nbsp;&nbsp;
-                                    <a href="tel:+917046125865">+91 7046125865</a>
+                                    <a href="tel:+919723334357" >+91 9723334357</a>  
+                                    <a href="tel:+917046125865" >+91 7046125865</a>
                                 </span>
                             </div>
 

@@ -1574,8 +1574,11 @@ iframe {
 
     .text p {
         margin: 0 auto;
-        font-size: 1.0rem;
+        font-size: 0.85rem;
         max-width: 100%;
+    }
+    .text a {
+       font-size: 0.85rem;
     }
 
     /* products */
