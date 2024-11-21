@@ -498,7 +498,7 @@ iframe {
 .off {
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 0px;
     width: 100%;
 }
 
@@ -532,10 +532,10 @@ iframe {
     margin-right: 0;
 }
 
-.hr {
+hr {
     width: 100%;
     background-color: rgba(255, 87, 34, 0.75);
-    height: 1px;
+    height: 2px;
     border: none;
     margin-top: 20px;
 }
@@ -1580,6 +1580,11 @@ iframe {
     .text a {
        font-size: 0.85rem;
     }
+    hr {
+        max-width:  100%;
+        
+        margin-top: 20px;
+    }
 
     /* products */
     .gallery-grid {
@@ -1649,4 +1654,5 @@ iframe {
         width: 280px;
         height: 300px;
     }
+   
 }
